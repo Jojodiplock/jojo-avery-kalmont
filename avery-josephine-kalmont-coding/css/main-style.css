@@ -19,4 +19,17 @@ body {
 /*Typography Styles*/
 
 h1 {
+  color: black;
+  font-family: Onest;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.21;
+  letter-spacing: 0.42rem;
+}
+
+h2 {
+  color: black;
+  font-family: Onest;
+  font-size: 1.25rem;
 }
