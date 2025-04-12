@@ -213,7 +213,7 @@ a.hyperlink {
   text-decoration: none;
 }
 
-/*center box*/
+/*center text box*/
 
 .centre-box {
   background-color: #162a6c;
@@ -251,6 +251,52 @@ a.hyperlink {
 
 .non-active-two:hover {
   background-color: #e55b5b;
+}
+
+/* four image row */
+.photo-row {
+  padding: 30px;
+  text-align: center;
+}
+
+.photo-row h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.photo-line {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo-item {
+  position: relative;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.photo-item p {
+  position: absolute;
+  bottom: -30px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /*avery*/
