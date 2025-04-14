@@ -309,6 +309,14 @@ a.hyperlink {
 
 /*avery*/
 .text-right {
+<<<<<<< Updated upstream
+=======
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+  
+>>>>>>> Stashed changes
 }
 
 /*avery*/
