@@ -300,29 +300,17 @@ a.hyperlink {
 }
 
 /*avery*/
-.hero-img {
+.hero-img { 
+  display: flex;
 }
 
 /*avery*/
 .hero-text {
+  display: flex;
 }
 
 /*avery*/
-.text-right {
-<<<<<<< Updated upstream
-=======
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-  
->>>>>>> Stashed changes
-}
+.box-and-photo{
+  display: grid;
 
-/*avery*/
-.text-left {
-}
-
-/*avery*/
-.footer {
 }
