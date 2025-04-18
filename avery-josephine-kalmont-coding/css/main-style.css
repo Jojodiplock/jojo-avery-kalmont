@@ -37,13 +37,13 @@ h2 {
 h3 {
   color: black;
   font-family: Onest;
-  font-size: 1 rem;
+  font-size: 1rem;
 }
 
 h4 {
   color: black;
   font-family: Onest;
-  font-size: 1.25 rem;
+  font-size: 1.25rem;
 }
 
 a {
@@ -79,8 +79,8 @@ a.hyperlink {
 
 .nav-button a {
   padding: 0.5rem 1rem;
-  border: 2px solid #333;
-  border-radius: 4px;
+  border: 0.125rem solid #333;
+  border-radius: 0.25rem;
   text-decoration: none;
   color: #333;
   transition: background-color 0.3s;
@@ -110,27 +110,27 @@ a.hyperlink {
 .footer {
   background-color: #0a1d5c;
   color: white;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .footer-container {
-  max-width: 1700px;
+  max-width: 106.25rem;
   margin: auto;
 }
 
 .subscribe-section {
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .subscribe-section h2 {
   margin: 0;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .subscribe-section p {
-  font-size: 16px;
-  margin: 5px 0 20px;
+  font-size: 1rem;
+  margin: 0.3125rem 0 1.25rem;
 }
 
 .subscribe-form {
@@ -139,22 +139,22 @@ a.hyperlink {
 }
 
 .subscribe-form input {
-  padding: 10px 40px 10px 10px;
-  width: 300px;
-  border-radius: 5px;
+  padding: 0.625rem 2.5rem 0.625rem 0.625rem;
+  width: 18.75rem;
+  border-radius: 0.3125rem;
   border: none;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .subscribe-form button {
   position: absolute;
-  right: 10px;
+  right: 0.625rem;
   top: 50%;
   transform: translateY(-50%);
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: gray;
 }
 
@@ -163,29 +163,29 @@ a.hyperlink {
 }
 
 .email-policy {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .links-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 20px;
-  border-top: 1px solid white;
+  padding-top: 1.25rem;
+  border-top: 0.0625rem solid white;
 }
 
 .footer-column {
   flex: 1;
-  min-width: 150px;
-  margin-bottom: 10px;
+  min-width: 9.375rem;
+  margin-bottom: 0.625rem;
 }
 
 .footer-column a {
   display: block;
   color: white;
   text-decoration: none;
-  margin-bottom: 5px;
-  font-size: 16px;
+  margin-bottom: 0.3125rem;
+  font-size: 1rem;
 }
 
 .footer-column a:hover {
@@ -196,20 +196,20 @@ a.hyperlink {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  border-top: 1px solid white;
+  padding-top: 1.25rem;
+  border-top: 0.0625rem solid white;
 }
 
 .company-name {
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #ff6b6b;
 }
 
 .social-icons a {
   color: white;
-  margin-left: 10px;
-  font-size: 20px;
+  margin-left: 0.625rem;
+  font-size: 1.25rem;
   text-decoration: none;
 }
 
@@ -218,35 +218,36 @@ a.hyperlink {
 .centre-box {
   background-color: #162a6c;
   width: 100%;
-  padding: 60px 20px;
+  padding: 3.75rem 1.25rem;
   text-align: center;
 }
 
 .text-centre {
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
 .text-centre h2 {
-  font-size: 28px;
-  margin-bottom: 15px;
+  font-size: 1.75rem;
+  margin-bottom: 0.9375rem;
   color: white;
 }
 
 .text-centre h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   line-height: 1.5;
   color: white;
 }
+
 .non-active-two {
   display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
+  margin-top: 1.25rem;
+  padding: 0.625rem 1.25rem;
   color: white;
   background-color: #ff6b6b;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 }
 
 .non-active-two:hover {
@@ -255,20 +256,20 @@ a.hyperlink {
 
 /* four image row */
 .photo-row {
-  padding: 30px;
+  padding: 1.875rem;
   text-align: center;
 }
 
 .photo-row h3 {
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .photo-line {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .photo-item {
@@ -281,26 +282,26 @@ a.hyperlink {
 
 .photo-item img {
   width: 100%;
-  height: 500px;
+  height: 31.25rem;
   object-fit: cover;
   border-radius: 0;
 }
 
 .photo-item p {
   position: absolute;
-  bottom: -30px;
+  bottom: -1.875rem;
   background-color: #007bff;
   color: white;
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.25rem;
   font-weight: 600;
   font-size: 0.9rem;
   white-space: nowrap;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.2);
 }
 
 /*avery*/
-.hero-img { 
+.hero-img {
   display: flex;
 }
 
@@ -310,7 +311,6 @@ a.hyperlink {
 }
 
 /*avery*/
-.box-and-photo{
+.box-and-photo {
   display: grid;
-
 }
