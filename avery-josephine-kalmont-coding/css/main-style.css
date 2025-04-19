@@ -322,48 +322,6 @@ a.hyperlink {
   font-weight: bold;
 }
 
-
-/*education*/
-.container{
-  max-width: 75rem;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.section {
-display: flex;
-gap: 3rem;
-padding: 3rem;
-border-radius: 1rem;
-}
-
-.section-img {
-  flex: 1;
-}
-
-.section-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 1rem;
-
-}
-
-.section-content {
-  flex: 1;
-}
-
-.section-title {
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-.section-text {
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
-
-
-/*index*/
 .box-section {
   flex-direction: row-reverse;
   display: flex;
