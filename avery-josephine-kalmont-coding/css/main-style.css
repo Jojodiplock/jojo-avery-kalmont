@@ -298,7 +298,22 @@ a.hyperlink {
   white-space: nowrap;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+/* Weather main layout flexbox */
+.weather-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-weather-body {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
 /* avalanche report map */
+
 /* Container: full-width row */
 .secondary-nav {
   display: flex;
@@ -363,8 +378,8 @@ a.hyperlink {
   object-fit: cover;
 }
 
-.hero-title{
-  position:absolute ;
+.hero-title {
+  position: absolute;
   color: white;
   top: 50%;
   transform: translateY(-50%);
@@ -379,7 +394,6 @@ a.hyperlink {
   margin: 2rem 0;
   gap: 1.25rem;
   align-items: center;
-
 }
 
 .box-sectionr {
@@ -387,12 +401,11 @@ a.hyperlink {
   margin: 2rem 0;
   gap: 1.25rem;
   align-items: center;
-
 }
 
 .box-img {
   flex: 1;
-  height:auto;
+  height: auto;
   overflow: hidden;
   border-radius: 1rem;
   width: 100%;
@@ -400,7 +413,7 @@ a.hyperlink {
   object-fit: cover;
 }
 
-.box-content{
+.box-content {
   flex: 1;
 }
 
@@ -427,6 +440,3 @@ a.hyperlink {
   background-color: white;
   text-decoration: none;
 }
-
-
-
