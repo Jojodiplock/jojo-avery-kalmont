@@ -371,6 +371,72 @@ a.hyperlink {
   color: #fff;
 }
 
+/* news updates cards*/
+.news-content {
+  padding: 2rem;
+}
+
+.news-main-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-image {
+  background-color: #0a1d5c;
+  border-radius: 2rem;
+  flex: 1;
+  overflow: hidden;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-image:hover {
+  transform: scale(1.05);
+}
+
+.news-image figure {
+  margin: 0;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-body h4 {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.hyperlink-alternate {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.hyperlink-alternate:hover {
+  text-decoration: underline;
+}
+
+.news-content h4 {
+  color: #fff;
+}
+
 /* Search "input look-alike" */
 .search a {
   display: block;
