@@ -107,6 +107,10 @@ a.hyperlink {
 
 /*footer*/
 
+.subscribe-section h2 {
+  color: #fff;
+}
+
 .footer {
   background-color: #0a1d5c;
   color: white;
@@ -298,6 +302,17 @@ a.hyperlink {
   white-space: nowrap;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+/*sub nav */
+.secondary-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.search {
+  flex: 1;
+}
 /* Weather main layout flexbox */
 .weather-content {
   display: flex;
@@ -312,16 +327,48 @@ a.hyperlink {
   padding: 1rem;
 }
 
-/* avalanche report map */
+/* avalanche report*/
+.four-column-grid-section {
+  width: 100%;
+  padding: 2rem;
+}
 
-/* Container: full-width row */
-.secondary-nav {
+.four-column-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* danger rating*/
+
+.danger-ratings {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 2rem;
-  flex-wrap: wrap;
-  gap: 1rem;
+  background-color: #0a1d5c;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 9rem;
+}
+.danger-ratings h4 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #fff;
 }
 
 /* Search "input look-alike" */
