@@ -259,9 +259,10 @@ a.hyperlink {
 }
 
 /* four image row */
+
 .photo-row {
   margin-bottom: 8rem;
-  margin-top: 8rem;
+  margin-top: 10rem;
   padding: 30px;
   text-align: center;
 }
@@ -495,6 +496,7 @@ a.hyperlink {
 }
 
 .hero-title {
+  margin-left: 6rem;
   position: absolute;
   color: white;
   top: 40%;
@@ -582,7 +584,7 @@ a.hyperlink {
   background-color: #e55b5b;
   color: white;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3rem;
   border-radius: 1rem;
   font-size: 1.25rem;
   margin-left: 6rem;
@@ -599,7 +601,7 @@ a.hyperlink {
   background-color: #e55b5b;
   color: white;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3rem;
   border-radius: 1rem;
   font-size: 1.25rem;
 }
@@ -613,7 +615,7 @@ a.hyperlink {
   top: 60%;
   position: absolute;
   transform: translateY(-90%);
-  margin-left: -103rem;
+  margin-left: -98rem;
   background-color: #e55b5b;
   color: white;
   text-decoration: none;
@@ -630,11 +632,12 @@ a.hyperlink {
 }
 
 .buttonc {
+  margin-top: 1rem;
   display: inline-block;
   background-color: #e55b5b;
   color: white;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 4rem;
   border-radius: 1rem;
   font-size: 1.25rem;
 }
