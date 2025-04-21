@@ -21,7 +21,7 @@ body {
 h1 {
   color: black;
   font-family: Onest;
-  font-size: 2rem;
+  font-size: 8rem;
   font-style: normal;
   font-weight: 700;
   line-height: 1.21;
@@ -497,11 +497,11 @@ a.hyperlink {
 .hero-title {
   position: absolute;
   color: white;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 40%;
+  transform: translateY(-90%);
   left: 3.75rem;
-  font-size: 3.75rem;
-  font-weight: bold;
+  font-size: 5rem;
+  font-weight: 700;
 }
 
 .box-section {
@@ -588,10 +588,9 @@ a.hyperlink {
   margin-left: 6rem;
 }
 
-.button :hover {
+.button:hover {
   color: #e55b5b;
   background-color: white;
-  text-decoration: none;
 }
 
 .buttonr {
@@ -605,7 +604,42 @@ a.hyperlink {
   font-size: 1.25rem;
 }
 
-.buttonr :hover {
+.buttonr:hover {
+  color: #e55b5b;
+  background-color: white;
+}
+
+.buttoni {
+  top: 60%;
+  position: absolute;
+  transform: translateY(-90%);
+  margin-left: -103rem;
+  background-color: #e55b5b;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 6rem;
+  border-radius: 2rem;
+  margin-top: -5rem;
+  font-size: 1.25rem;
+}
+
+.buttoni:hover {
+  color: #e55b5b;
+  background-color: white;
+  text-decoration: none;
+}
+
+.buttonc {
+  display: inline-block;
+  background-color: #e55b5b;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+}
+
+.buttonc:hover {
   color: #e55b5b;
   background-color: white;
   text-decoration: none;
