@@ -220,6 +220,7 @@ a.hyperlink {
 /*center text box*/
 
 .centre-box {
+  margin-top: 8rem;
   background-color: #162a6c;
   width: 100%;
   padding: 60px 20px;
@@ -259,6 +260,8 @@ a.hyperlink {
 
 /* four image row */
 .photo-row {
+  margin-bottom: 8rem;
+  margin-top: 8rem;
   padding: 30px;
   text-align: center;
 }
@@ -504,19 +507,13 @@ a.hyperlink {
 .box-section {
   flex-direction: row-reverse;
   display: flex;
-  margin: 2rem 0;
-  gap: 1.25rem;
+  margin-bottom: 8rem;
   align-items: center;
-}
-
-.box-sectionr {
-  display: flex;
-  margin: 2rem 0;
-  gap: 1.25rem;
-  align-items: center;
+  gap: 2rem;
 }
 
 .box-img {
+  margin-top: 8rem;
   flex: 1;
   height: auto;
   overflow: hidden;
@@ -527,15 +524,57 @@ a.hyperlink {
 }
 
 .box-content {
+  padding: 0rem;
   flex: 1;
 }
 
 .box-title {
   margin-bottom: 2rem;
+  margin-left: 6rem;
   font-weight: bold;
+  font-size: 2rem;
 }
 .box-text {
   margin-bottom: 2rem;
+  margin-left: 6rem;
+  font-weight: 300;
+}
+
+.box-sectionr {
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box-imgr {
+  margin-top: 8rem;
+  flex: 1;
+  height: auto;
+  overflow: hidden;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 6rem;
+}
+
+.box-contentr {
+  flex: 1;
+}
+.box-titler {
+  margin-bottom: 2rem;
+  margin-right: 6rem;
+  margin-left: -10rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.box-textr {
+  margin-bottom: 2rem;
+  margin-right: 6rem;
+  margin-left: -10rem;
+  font-weight: 300;
 }
 
 .button {
@@ -546,9 +585,27 @@ a.hyperlink {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   font-size: 1.25rem;
+  margin-left: 6rem;
 }
 
 .button :hover {
+  color: #e55b5b;
+  background-color: white;
+  text-decoration: none;
+}
+
+.buttonr {
+  margin-left: -10rem;
+  display: inline-block;
+  background-color: #e55b5b;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+}
+
+.buttonr :hover {
   color: #e55b5b;
   background-color: white;
   text-decoration: none;
