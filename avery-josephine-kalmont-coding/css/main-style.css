@@ -71,12 +71,6 @@ a.hyperlink {
   position: relative;
 }
 
-.nav-button {
-  align-self: flex-end;
-  margin-bottom: 1rem;
-  margin-right: 2rem;
-}
-
 .nav-button a {
   padding: 0.5rem 1rem;
   border: 2px solid #333;
@@ -92,7 +86,8 @@ a.hyperlink {
 
 .nav-bar {
   display: flex;
-  gap: 8rem;
+  gap: 6rem;
+  align-items: center;
 }
 
 .nav-bar a {
